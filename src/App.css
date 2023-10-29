@@ -3,30 +3,26 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 body {
-  font-family: 'Menlo', sans-serif;
+  font-family: 'Menlo', Raleway;
   margin: 0;
   background-color: #0e0a1c;
 }
 .bg-hero::before {
-  background-repeat: repeat;
+  background-repeat: repeat-x;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width:100%;
-  height: calc(100vh * 2.2);
+  height: 100%;
   background-image: url('../src/pictures/stars.png');
+  background-repeat: repeat;
   opacity: 0.2;
   z-index: -1;
 }
 ::selection {
   background-color: #a2eeac;
 }
-
-.animate-pulse-slow {
-  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
 
 @keyframes fadeIn {
   0% {
