@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 export default function Navbar() {
   return (
-    <div className='h-full'>
+    <div className=' '>
       <section className='bg-hero bg-repeat-x'>
       <h2 className='w-full font-bold text-3xl text-[#48a0a8] text-center sm:text-4xl md:text-5xl md:py-5 mt-12'>İsra Gösterit</h2>
       <div className='text-center py-3'> 
