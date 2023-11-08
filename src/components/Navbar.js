@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Navbar = () => {
-
-
+export default function Navbar() {
   return (
-    <section className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#5e9c88] '>
-        <ul className='md:flex mx-auto'>
+    <section className='flex px-4 text-[#5e9c88]'>
+      <ul className='flex flex-row justify-between items-center mx-auto'>
         <li className='p-4 hover-cursor hover:text-white hover:cursor-pointer'>Home</li>
-        <li className='p-4 hover:text-white hover:cursor-pointer'>About</li>
-        <li className='p-4 hover:text-white hover:cursor-pointer'>Contact</li>
+        <li className='p-4 hover:text-white hover:cursor-pointer'>
+          <a href="#about" className="nav-link">About</a>
+        </li>
+        <li className='p-4 hover:text-white hover:cursor-pointer'>
+        <a href="#contact" className="nav-link">Contact</a>
+        </li>
       </ul>
     </section>
   );
 }
-
-export default Navbar;

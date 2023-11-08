@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 
-export default function Navbar() {
+export default function Home() {
   return (
     <div className=' '>
       <section className='bg-hero bg-repeat-x'>

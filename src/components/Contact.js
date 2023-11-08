@@ -6,7 +6,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact() {
   return (
-    <div className='text-center text-white m-8'>
+    <div id="contact" className='text-center text-white m-3 mt-72'>
     <h1 className="text-4xl text- font-bold text-white flex items-center justify-center">Contact</h1>
     <ul className='flex p-4 justify-center  mx-auto'> 
     <li className="m-6">
@@ -27,7 +27,7 @@ export default function Contact() {
             <span className="ml-2">Github</span>
           </a>
      </li>
-      </ul>
+  </ul>
 
   
 
